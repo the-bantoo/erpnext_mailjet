@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_mailjet *.css
+recursive-include erpnext_mailjet *.csv
+recursive-include erpnext_mailjet *.html
+recursive-include erpnext_mailjet *.ico
+recursive-include erpnext_mailjet *.js
+recursive-include erpnext_mailjet *.json
+recursive-include erpnext_mailjet *.md
+recursive-include erpnext_mailjet *.png
+recursive-include erpnext_mailjet *.py
+recursive-include erpnext_mailjet *.svg
+recursive-include erpnext_mailjet *.txt
+recursive-exclude erpnext_mailjet *.pyc
